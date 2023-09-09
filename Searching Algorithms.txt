@@ -1,1 +1,59 @@
 Algorithms:
+Algorithms are nothing but a way to solve problems. In the real world, There are many ways to solve a problem. So, you can basically say that an algorithm is nothing but steps to solve any problems. For any algorithm, There are few things to keep in mind.
+
+An algorithm will/should have:
+Clarity : An algorithm should be specific and also very detailed.
+Accuracy : The result produced is accurate and correct. 
+Finite : It should have a finite number of steps and then it should end. 
+
+So, If we think about real life examples. 
+Jigsaw puzzle: The expected result is shown. We need to join each piece correctly to get the right result. Depending on the size of the puzzle. It will take you a specific amount of steps and time.
+
+Why do you need an algorithm?
+Algorithms are ways to solve a problem. So, If we have any problem. We use an algorithm to resolve that. But the algorithm can be too many. Like there are a lot of ways to solve a single problem. Just like a rubik's cube.
+
+Rubik’s Cube: The rubik’s cube is a perfect example. As we use algorithms to solve this cube. The cube can be solved in 50 steps , 20 steps , 10 steps. Depending on the algorithm you choose. The number of steps are defined. As you complete the given step you will see the end result. But the end goal is to solve the cube. In the cube we have too many algorithms to solve the cube. We choose the most efficient algorithm to get the problem solved the quickest.
+
+Social Media platforms like LinkedIn , Twitter, Snapchat, Youtube etc also use algorithms to suggest videos, images , profiles to all the users according to their usage. So, we know that algorithms play an important role in our day to day life as well. 
+So, To get the problem solved more effectively and quickly an algorithm is created.
+Algorithms are created with the help of a Pseudocode. Let’s understand what pseudocode is.
+
+PseudoCode
+
+PseudoCode is simple to understand as it is just an outline of how the actual code or algorithm will work. To create a pseudocode, we need to understand the problem we are facing and based on that we can make a pseudocode. Pseudocode uses natural language like English and we combine it with coding to create a simple outline of the whole code. 
+Let’s say if you want to write a simple pseudocode for printing numbers from 1 to 10. 
+So, the goal is to print numbers from 1 to 10 on the screen. 
+ 
+
+Pseudocode
+
+For loop variable start at 1 and end at 10 
+ Print the variable 
+ 
+
+Actual Code
+
+for(var i = 1 ; i<=10  ; i++){
+ console.log(i);
+}
+ 
+
+Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Now, we know what algorithms and pseudo code are. Let us understand something about searching algorithms.
+
+Searching Algorithm
+In our day to day, There is one common thing we all do which is searching. Searching is used everywhere in all the applications such as Youtube , Amazon etc. We do need a searching algorithm to make the searching even quicker and more efficient. So, we do have two of the most used search algorithms which are:
+Linear Search
+Binary Search
+So, let’s take a look at both algorithms one by one.
