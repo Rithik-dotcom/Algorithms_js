@@ -1,1 +1,23 @@
+bubble sort is a sorting method to check neighbour is sorted or not and swap is not sorted this process of sorting keep iterating until the length of the array the reason behind
+is that for complex array need to be sorted one iteration is not sufficient hence we have to keep sorting until whole array(complex) is sorted.
+
+
+let array = [12, 2, 4, 3,1,21,14,18,15]
+let temp ;
+function bubbleSort(parameter){
+    for(let j=0; j<parameter.length; j++){
+    for(let i=0; i<parameter.length; i++){
+        if(parameter[i]>parameter[i+1]){
+            temp=parameter[i+1]  ;
+            parameter[i+1]= parameter[i]
+            parameter[i]= temp;
+        }
+    }
+    }
+    return parameter
+}
+
+console.log(bubbleSort(array))
+
+
 
