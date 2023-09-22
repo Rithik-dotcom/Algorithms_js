@@ -20,4 +20,21 @@ function bubbleSort(parameter){
 console.log(bubbleSort(array))
 
 
+//Assignment 01  SOLUTION FROM LMS
+let array = [1500, 1200, 786, 450, 2000, 2300, 546, 780, 800, 900, 2000];
+function bubbleSort(parameter){
+    let temp;
+    for( let i=0; i<parameter.length; i++){
+        for( let j=0; j<parameter.length; j++){
+            if(parameter[j]>parameter[j+1]){
+                temp = parameter[j];
+                parameter[j] = parameter[j+1];
+                parameter[j+1] = temp;
+            }
+        }
+    }
+  
+    return parameter
+}
 
+console.log(bubbleSort(array))
