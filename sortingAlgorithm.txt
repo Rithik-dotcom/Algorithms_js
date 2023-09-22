@@ -38,3 +38,38 @@ function bubbleSort(parameter){
 }
 
 console.log(bubbleSort(array))
+
+
+
+Insertion sort
+
+
+
+
+function insertionSort(inputArray) {
+for (let i = 1; i < inputArray. length; i++) {
+    let currentValue = inputArray[i];// holding the upcoming value
+    let j;
+    console.log('current value', currentValue)
+for (j = i - 1; j >= 0 && inputArray[j] > currentValue; j--) {
+     inputArray[j + 1] = inputArray[j]; //changing upcoming value
+     
+     console.log("upcoming", inputArray)
+    }
+    inputArray[j + 1] = currentValue; //j is decremented, changing the
+                                       //previous value  to current value
+    console.log('j value',j)
+    console.log('after swap prev value',inputArray)
+  }
+
+return inputArray;
+}
+
+
+let myArray = [12, 5, 267, 7, 38, 8, 49, 9, 60];
+
+console. log(insertionSort (myArray) );
+
+ 
+  
+  
